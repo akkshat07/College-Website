@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aktu Study Material</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8a1e3ce0e6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header>
+    <nav>
+        
+            <div class="nav-bar">
+                <ul class="nav-bar-items">
+                    <li class="hidden-icon"><a href="index.html"><i class="fa-solid fa-house-chimney"></i></a></li>
+                    <li class="nav-item-1"><a href="index.html"><i class="fa-solid fa-house-chimney"></i>       Home</a></li>
+                    <li class="nav-item-2"><a href="1styear_syllabus/one.html" target="_blank">1st year</a></li>
+                    <li class="nav-item-3"><a href="Select Branch 2nd year/branchselection2.html" target="_blank">2nd year</a></li>
+                    <li class="nav-item-4"><a href="Select Branch 3rd year/branchselection3.html" target="_blank">3rd year</a></li>
+                    <li class="nav-item-5"><a href="Select Branch 4th year/branchselection4.html" target="_blank">4th year</a></li>
+                    <li class="nav-item-6"><a href="#">PYQs</a></li>
+                    <li class="nav-item-7"><a href="Contact Us/contact.html" target="_blank">Contact Us</a></li>
+
+                <div class="toggle-btn">
+                    <i class="fa-solid fa-bars"></i>
+                    <!-- <i class="fa-solid fa-xmark" class="mobile-nav-icon"  style="color: #000000;"></i> -->
+                </div>
+
+                
+                </ul>
+
+            </div>
+
+
+            <div class="news-container">
+                <div class="title">Note: </div>
+        
+                <ul>
+                    <li>Check menu to download syllabus and previous year question papers</li>
+                </ul>
+        
+            </div>
+            
+
+            <div class="dropdown-menu">
+                    
+                    <li class="nav-item-2"><a href="1styear_syllabus/one.html">1st year</a></li>
+                    <li class="nav-item-3"><a href="Select Branch 2nd year/branchselection2.html">2nd year</a></li>
+                    <li class="nav-item-4"><a href="Select Branch 3rd year/branchselection3.html">3rd year</a></li>
+                    <li class="nav-item-5"><a href="Select Branch 4th year/branchselection4.html">4th year</a></li>
+                    <li class="nav-item-6"><a href="#">PYQs</a></li>
+                    <li class="nav-item-7"><a href="Contact Us/contact.html">Contact Us</a></li>
+                
+                </div>
+
+                
+        
+    </nav>
+
+   
+
+    <section class="container">
+        <div class="card">
+            <div class="card-image car"></div>
+            <h2>CSE-AI</h2>
+            <!-- <p></p> -->
+            <a href="Select Semester CSE-AI/semester_select_ai.html" target="_blank">Download</a>
+        </div>
+
+        <div class="card">
+            <div class="card-image car"></div>
+            <h2>CSE/CE</h2>
+            <!-- <p>Text</p> -->
+            <a href="Select Semester CSE/semester_select_cse.html" target="_blank">Download</a>
+        </div>
+
+        <div class="card">
+            <div class="card-image car"></div>
+            <h2>IT</h2>
+            <!-- <p>Text</p> -->
+            <a href="Select Semester IT/semester_select_cse.html" target="_blank">Download</a>
+        </div>
+
+        <div class="card">
+            <div class="card-image car"></div>
+            <h2>Civil Engg.</h2>    
+            <!-- <p>Text</p> -->
+            <a href="#">Download</a>
+        </div>
+        
+        <div class="card">
+            <div class="card-image car"></div>
+            <h2>Mechanical</h2>
+            <!-- <p>Text</p> -->
+            <a href="#">Download</a>
+        </div>
+
+        <div class="card">
+            <div class="card-image car"></div>
+            <h2>ECE</h2>
+            <!-- <p>Text</p> -->
+            <a href="#">Download</a>
+        </div>
+
+        <div class="card">
+            <div class="card-image car"></div>
+            <h2>EE</h2>
+            <!-- <p>Text</p> -->
+            <a href="#">Download</a>
+        </div>
+
+        <div class="card">
+            <div class="card-image car"></div>
+            <h2>EEE</h2>
+            <!-- <p>Text</p> -->
+            <a href="#">Download</a>
+        </div>
+
+        <div class="card">
+            <div class="card-image car"></div>
+            <h2>CSE-DS</h2>
+            <!-- <p>Text</p> -->
+            <a href="#">Download</a>
+        </div>
+    </section>
+
+    <footer class="footer-content">
+        <a href="Contact Us/contact.html" target="_blank"><h2>Contact Us</h2><span><i class="fa-solid fa-phone" style="color: #393e47;"></i></span></a>
+        <h3>All right reserved by @copyright 2020</h3>
+    </footer>
+    
+    
+    
+    <script>
+
+        const toggleBtn = document.querySelector('.toggle-btn')
+        const toggleBtnIcon = document.querySelector('.toggle-btn i')
+        const dropDownMenu = document.querySelector('.dropdown-menu')
+
+        toggleBtn.onclick = function() {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bars'
+        }
+
+    </script>
+    
+</header>
+</body>
+</html>
